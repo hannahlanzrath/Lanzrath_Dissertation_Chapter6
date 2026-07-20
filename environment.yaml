@@ -1,0 +1,15 @@
+name: chapter6_cases
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - cadet=5.1.1          # CADET simulator binary (C++)
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - seaborn
+  - jupyterlab
+  - ipykernel
+  - pip:
+    - git+https://github.com/fau-advanced-separations/CADET-Process.git@dev
