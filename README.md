@@ -135,3 +135,20 @@ format once by `scripts/convert_raw_data_to_csv.py`.
 | pandas | data loading and tabular output |
 | matplotlib | figures |
 | seaborn | Pearson correlation heatmaps (preliminary notebooks) |
+
+---
+
+## License
+
+**Code** (`*.py`, `*.ipynb`): [GNU Affero General Public License v3.0](LICENSE) (AGPL-3.0).
+Any use or modification of this code, including running it as a network service, requires
+publishing the source under the same license.
+
+**Data** (`data/`): [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0](data/LICENSE)
+(CC BY-NC-ND 4.0). You may share the data with attribution (cite the dissertation below), but
+not for commercial purposes and not in modified or derived form. For use in a new publication
+or derived dataset, contact h.lanzrath[at]fz-juelich.de.
+
+**Citation:**
+Lanzrath, H. (2025). *Advancing Model-based Analysis of Tracer Transport Dynamics in Plants*.
+PhD dissertation, RWTH Aachen University.
